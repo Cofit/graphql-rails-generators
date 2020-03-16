@@ -13,10 +13,10 @@ module Gql
           boolean: 'Boolean',
           decimal: 'Float',
           datetime: 'GraphQL::Types::ISO8601DateTime',
-          date: 'GraphQL::Types::ISO8601Date',
-          hstore: 'GraphQL::Types::JSON',
+          date: 'Types::DateType',
+          hstore: 'Types::JSONType',
           text: 'String',
-          json: 'GraphQL::Types::JSON'
+          json: 'Types::JSONType'
         }
       end
   
