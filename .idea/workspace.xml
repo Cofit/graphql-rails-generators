@@ -13,7 +13,7 @@
     <session id="1038133154">
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="9" />
+          <entry key="Ruby" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/lib/generators/gql/input_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -144,7 +144,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3317000" />
+    <option name="totallyTimeSpent" value="3558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="977" extended-state="6" />
