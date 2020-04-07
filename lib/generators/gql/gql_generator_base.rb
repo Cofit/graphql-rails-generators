@@ -28,7 +28,6 @@ module Gql
         bt_columns = associations.map(&:foreign_key)
 
         klass.columns
-          # .reject { |col| bt_columns.include?(col.name) }
           .reject { |col| type_map[col.type].nil? }
           .map { |col| { name: col.name, gql_type: type_map[col.type] } }
       end
