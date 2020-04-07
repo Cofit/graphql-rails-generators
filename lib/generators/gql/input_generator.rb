@@ -9,7 +9,7 @@ module Gql
       file_name = model_name
 
       ignore = ['id', 'created_at', 'updated_at']
-      @fields = map_model_types(model_name).select { |field| (field[:name] != "id") }
+      @fields = map_model_types(model_name).reject { |field| ignore.include?(field[:name] }
 
       template('input_type.rb', "app/graphql/types/input/#{file_name.underscore}_input.rb")
     end
